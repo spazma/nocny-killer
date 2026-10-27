@@ -34,7 +34,7 @@ ubijacz aplikacji z timerem i anty-sleepem dla windowsa
 
 ## ⚙️ Konfiguracja aplikacji
 
-Listę kontrolowanych procesów, czasy odliczania oraz domyślny stan przełączników można łatwo dostosować bezpośrednio w kodzie skryptu PowerShell (`ps_3.ps1`) w sekcji **0) KONFIGURACJA**:
+Listę kontrolowanych procesów, czasy odliczania oraz domyślny stan przełączników można łatwo dostosować bezpośrednio w kodzie skryptu PowerShell (`nk-script.ps1`) w sekcji "**0) KONFIGURACJA**"
 
 ```powershell
 $script:Config = [ordered]@{
